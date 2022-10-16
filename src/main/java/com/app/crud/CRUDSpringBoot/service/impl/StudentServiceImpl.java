@@ -12,7 +12,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class StudentServiceImpl implements StudentService {
 
-  private StudentRepo studentRepo;
+  private final StudentRepo studentRepo;
 
 
   @Override
