@@ -1,10 +1,14 @@
 package com.app.crud.CRUDSpringBoot.entity;
 
-import lombok.Data;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.*;
 
-@Data
+@Getter
+@Setter
+@Builder
 @Entity
 @Table(name = "students")
 public class Student {
